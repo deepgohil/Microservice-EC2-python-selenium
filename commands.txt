@@ -1,0 +1,14 @@
+(create venv)
+py -3 -m venv venv
+ctrl+shift+p .\venv\Scripts\python.exe
+
+(on EC2 )
+inbound rules (image)
+git clone (http repo)
+
+
+(start api in backgroung command on ec2)
+cd (to folder)
+pip3 install -r requirements.txt
+nohup uvicorn main:app --reload --host 0.0.0.0 &
+ps -ef(see proces in background)
