@@ -2,6 +2,11 @@
 py -3 -m venv venv
 ctrl+shift+p .\venv\Scripts\python.exe
 
+
+run this command
+py -3 -m venv venv
+.\venv\Scripts\activate
+
 (on EC2 )
 inbound rules (image)
 git clone (http repo)
